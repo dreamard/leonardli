@@ -1,0 +1,10 @@
+server:
+    port=8002
+spring:
+    thymeleaf:
+        #??????
+        prefix: classpath:/templates/
+        #???? ????
+        suffix: .html
+        mode: LEGACYHTML5
+        template-resolver-order: 0
